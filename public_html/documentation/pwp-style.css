@@ -8,3 +8,14 @@ footer{
     text-align: center;
     font-size: 1em;
 }
+.flex-box{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0 2em 0;
+}
+
+.desktop, img{
+    background-color: black;
+    border: solid black 10px;
+}
