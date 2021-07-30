@@ -15,7 +15,9 @@ footer{
     justify-content: space-evenly;
     padding: 2em 0 2em 0;
 }
-
+.desktop{
+    background-color: black;
+}
 .desktop, img{
-    padding: 15px;
+    padding: 20px;
 }
