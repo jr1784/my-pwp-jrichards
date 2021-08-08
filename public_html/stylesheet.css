@@ -36,6 +36,15 @@
     color: #fff;
 
 }
-.row{
+#PortFolioSection p #PortFolioSection2 p {
+    padding: 0;
     margin: 0;
+}
+.carousel-inner{
+    border: solid white 2px;
+
+}
+.row {
+    margin: 0;
+    padding: 0;
 }
