@@ -24,12 +24,17 @@
     width: 35%;
 
 }
+
 .btn-lg{
     border: none;
     border-radius: 28px 0 28px 0;
     background-color: #BF4513;
     color: white;
     width: 10em;
+}
+@media screen and (max-width: 1124px)
+{.btn-lg
+{width: 8em}
 }
 #PortFolioSection{
     background-color:#212529 ;
