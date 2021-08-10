@@ -4,7 +4,7 @@
 }
 
 #aboutMeBGShape{
-    background-color: #BC6040;
+    background-color: #BF4513;
     border-radius: 0 0 105px 0;
 
 }
@@ -52,4 +52,8 @@
 .row {
     margin: 0;
     padding: 0;
+}
+#contactMe{
+    background-color: #BF4513;
+    color: white;
 }
