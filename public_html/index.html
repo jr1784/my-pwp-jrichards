@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<!--NavBar Section-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#"><img src="jrLogo1.svg" alt="JR Logo" width="70"/></a>
@@ -23,18 +24,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Portfolio</a>
+                    <a class="nav-link active" href="#PortFolioSection">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Contact Me</a>
+                    <a class="nav-link active" href="#contactMe">Contact Me</a>
                 </li>
 
             </ul>
         </div>
     </div>
 </nav>
-
-
+<!--Main Jumbo Logo Section-->
+<div id="jumboLogo">
     <div class="container mt-4 mt-lg-5 col-lg-4">
         <div class="d-flex justify-content-center">
             <img src="jrLogoBig.svg" alt="JR Logo Large" width="110"/>
@@ -45,11 +46,11 @@
             <img src=developmentAndDesign.svg alt="develop and design"/>
         </div>
     </div>
-
+</div>
 
 <!--About Section it needs a lot more work!-->
 <section class="mb-4">
-    <div id="AllMeIfo" class="d-flex flex-row justify-content-between mt-4 mt-lg-5">
+    <div id="AllMeInfo" class="d-flex flex-row justify-content-between mt-4 mt-lg-5">
         <div id="aboutMeBGShape" class="col-9 col-lg-7 d-flex justify-content-center justify-content-lg-end py-4">
 
             <div class="text-light col-11 col-lg-9 pe-lg-4">
@@ -64,28 +65,16 @@
     </div>
 </section>
 
-<!--Button section will return to get exactly what I'm trying to achieve.-->
-<!--<section id="buttonsP-CM" class="">-->
-<!--    <div  class="d-flex flex-column flex-lg-row justify-content-center">-->
-<!--        <div class="justify-content-center">-->
-<!--            <div class="col-2"></div>-->
-<!--            <button type="button" class="btn-lg me-lg-4">Portfolio</button>-->
-<!--        </div>-->
-<!--        <div class=col-2">-->
-<!--            <button type="button" class="btn-lg ms-lg-4">Contact Me</button>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
-
+<!--Buttons Section, I cannot put button tags in anchor tags-->
 <div id="buttonsP-CM" class="py-0 py-md-5">
     <div class="d-flex flex-lg-row justify-content-center">
         <div class="justify-content-center">
 
-            <button type="button" class="btn-lg me-4 me-lg-4 ">Portfolio</button>
+            <a href="#PortFolioSection" class="btn btn-lg me-4 me-lg-4">Portfolio</a>
         </div>
         <div>
-            <button type="button" class="btn-lg ms-lg-4">Contact Me</button>
+            <a href="#contactMe" class="btn btn-lg ms-lg-4">Contact Me</a>
         </div>
     </div>
 </div>
@@ -110,45 +99,27 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="CaissonSMGraphic.jpg" class="d-block w-100" alt="Caisson"/>
-<!--                    <div class="carousel-caption d-none d-md-block">-->
-<!--                        <h5>First slide label</h5>-->
-<!--                        <p>Some representative placeholder content for the first slide.</p>-->
-<!--                    </div>-->
+
                 </div>
                 <div class="carousel-item">
                     <img src="CINCSMGraphic.jpg" class="d-block w-100" alt="CommanderInChief"/>
-<!--                    <div class="carousel-caption d-none d-md-block">-->
-<!--                        <h5>Second slide label</h5>-->
-<!--                        <p>Some representative placeholder content for the second slide.</p>-->
-<!--                    </div>-->
+
                 </div>
                 <div class="carousel-item">
                     <img src="FifeandDrumCorpsSMgraphic.jpg" class="d-block w-100" alt="FifeandDrum"/>
-<!--                    <div class="carousel-caption d-none d-md-block">-->
-<!--                        <h5>Third slide label</h5>-->
-<!--                        <p>Some representative placeholder content for the third slide.</p>-->
-<!--                    </div>-->
+
                 </div>
                 <div class="carousel-item">
                     <img src="SRT.jpg" class="d-block w-100" alt="SpecialReactionTeam"/>
-                    <!--                    <div class="carousel-caption d-none d-md-block">-->
-                    <!--                        <h5>Third slide label</h5>-->
-                    <!--                        <p>Some representative placeholder content for the third slide.</p>-->
-                    <!--                    </div>-->
+
                 </div>
                 <div class="carousel-item">
                     <img src="PSBSMGraphic.jpg" class="d-block w-100" alt="PresidentSalute"/>
-                    <!--                    <div class="carousel-caption d-none d-md-block">-->
-                    <!--                        <h5>Third slide label</h5>-->
-                    <!--                        <p>Some representative placeholder content for the third slide.</p>-->
-                    <!--                    </div>-->
+
                 </div>
                 <div class="carousel-item">
                     <img src="TUSSMGraphic.jpg" class="d-block w-100" alt="TombOfTheUnknown"/>
-                    <!--                    <div class="carousel-caption d-none d-md-block">-->
-                    <!--                        <h5>Third slide label</h5>-->
-                    <!--                        <p>Some representative placeholder content for the third slide.</p>-->
-                    <!--                    </div>-->
+
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -167,7 +138,7 @@
         <div class="col-12 col-md-6 d-block mt-2 mt-lg-0 mb-4 mb-lg-0 ">
 
             <h5>Comic Cover Series for Social Media</h5>
-            <p>A computer lets you make more mistakes faster than any invention in human history–with the possible exceptions of handguns and tequila. (Mitch Radcliffe) There is no programming language–no matter how structured–that will prevent programmers from making bad programs.</p>
+            <p>The comic book cover series was one of my favorite projects while serving as a Senior Multimedia Specialist for the U.S. Army. It highlighted the specialty platoons of “The Old Guard,” the oldest active infantry regiment of the United States Army. I enjoyed the challenge of creating a product that could garner the appeal of a younger generation and still convey the honorable service our military provides to our nation every day because there is nothing comical about that. </p>
 
         </div>
     </div>
@@ -214,7 +185,7 @@
         <div class="col-12 col-md-6 d-block mt-2 mt-lg-0 mb-4 mb-lg-0">
 
 <h5>Manual Sketches and Vector</h5>
-            <p>A computer lets you make more mistakes faster than any invention in human history–with the possible exceptions of handguns and tequila. (Mitch Radcliffe) There is no programming language–no matter how structured–that will prevent programmers from making bad programs.</p>
+            <p>Do you need a resizable image that can be re-used and looks good in any medium? How about something custom? Usually, my clients already have branding, but they don't have a usable digital copy that accurately represents the brand's professionalism. I can recreate complex images or something completely original in vector to be scaled and used in as many forms as intended.</p>
 
         </div>
     </div>
@@ -275,7 +246,7 @@
             <div class="col-12 col-md-6 d-block mt-2 mt-lg-0 mb-4 mb-lg-0 ">
                 <h5>More Social Media Graphics</h5>
 
-                <p>A computer lets you make more mistakes faster than any invention in human history–with the possible exceptions of handguns and tequila. (Mitch Radcliffe) There is no programming language–no matter how structured–that will prevent programmers from making bad programs.</p>
+                <p>How about social media? I have created hundreds of social media products to help promote national observances and various organizational events. Do you need it in print? I can also help you there— I always create my products in print resolution first and sample it down for the web. I like to think several steps ahead, and I'm prepared for when clients enjoy my creations so much they want them hanging on their walls.</p>
 
             </div>
         </div>
@@ -286,32 +257,51 @@
             <div class="col-12 d-block mt-2 mt-lg-0 mb-5 mb-lg-5 ">
 
                 <h5 class="mt-0 mt-lg-2">Motion Graphics</h5>
-            <p>A computer lets you make more mistakes faster than any invention in human history–with the possible exceptions of handguns and tequila. (Mitch Radcliffe) There is no programming language–no matter how structured–that will prevent programmers from making bad programs.</p>
+            <p>Another one of my favorite projects points to why I enjoy being a multimedia professional— I get to create in all mediums. This video intro was created for "The Old Guard" public affair's team to use in some of their feature video products. It's a composite of video, vector, and raster graphics animated in Adobe Effects. If "The Old Guard" wanted to put on a full-length feature production, I think it would be a great intro—what do you think?</p>
             </div>
         </div>
     </section>
+
+
+<!--Contact Me and Qualifications Section-->
 <div id="contactMe">
     <div class="col-12 row px-0 px-lg-5 pt-3">
         <div class="col-12 col-md-6 row col-12 ps-0 ps-lg-5">
             <h2>Experience and Qualifications</h2>
 
         </div>
-        <div class="col-12 col-md-6 row col-12 pe-0 pe-lg-5">
 
+
+        <div class="col-12 col-md-6 row col-12 pe-0 pe-lg-5">
             <h2>Contact Me</h2>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <form id="contactMeForm">
+                <div class="col-5 mb-3 d-inline-block">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <label for="firstName"></label>
+                    <input type="text" class="form-control" id="firstName" placeholder="first name">
+                </div>
+                <div class="col-5 mb-3 d-inline-block">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <label for="lastName"></label>
+                    <input type="text" class="form-control" id="lastName" placeholder="last name">
+                </div>
+                <div class="mb-3">
+                    <label for="emailAddress" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <label for="subject"></label>
+                    <input type="text" class="form-control" id="subject" placeholder="subject">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+
             </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Subject</label>
-                <label for="exampleFormControlSubjectInput1"></label><input type="text" class="form-control" id="exampleFormControlSubjectInput1" placeholder="subject">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <button type="submit" class="btn btn-light col-3 mt-3 text-center">Submit</button>
-            </div>
+            </form>
+
 
         </div>
     </div>

@@ -1,4 +1,4 @@
-#AllMeIfo{
+#AllMeInfo{
     max-width: 100%;
 
 }
@@ -9,7 +9,7 @@
 
 }
 @media screen and (max-width: 1124px)
-{#profilePictureFrame,#profilePicture
+{#profilePictureFrame, #profilePicture
 {display: none}
 }
 
