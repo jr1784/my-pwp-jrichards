@@ -23,12 +23,12 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ms-auto">
                     <a class="nav-link active" href="#PortFolioSection">Portfolio</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ms-auto">
                     <a class="nav-link active" href="#contactMe">Contact Me</a>
                 </li>
 
@@ -268,35 +268,37 @@
 <!--Contact Me and Qualifications Section-->
 <div id="contactMe">
     <div class="col-12 row px-0 px-lg-5 pt-3">
-        <div class="col-12 col-md-6 row col-12 ps-0 ps-lg-5">
+
+        <div class="col-12 col-md-6 row ps-0 ps-lg-5">
             <h2>Experience and Qualifications</h2>
 
         </div>
-        <div class="col-12 col-md-6 row col-12 pe-0 pe-lg-5">
+
+        <div class="col-12 col-md-6 row pe-0 pe-lg-5">
 
             <!--Form begins here-->
             <h2>Contact Me</h2>
-            <form action="http://localhost:4200/apis/"  id="contactMeForm" method="post" novalidate>
+            <form action="http://localhost:4200/apis/" id="contactMeForm" method="post" novalidate>
 
-
-                <div class="form-group col-5 mb-3 d-inline-block">
+                <div class="col-12 d-flex justify-content-between">
+                <div id="firstName1" class="form-group mb-2 me-2">
                     <label for="firstName">First Name</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="first name">
+                        <input class="form-control" id="firstName" name="firstName" placeholder="first name" type="text">
                     </div>
                 </div>
 
 
 
-                <div class="form-group col-5 mb-3 d-inline-block">
+                <div id="lastName2" class="form-group mb-2">
                     <label for="lastName">Last Name</label>
                     <div class="input-group">
-                        <input class="form-control" id="lastName" name="lastName" placeholder="last name" type="text" >
+                        <input class="form-control" id="lastName" name="lastName" placeholder="last name" type="text">
                     </div>
                 </div>
+                </div>
 
-
-                <div class="form-group mb-3">
+                <div class="form-group mb-2">
                     <label for="emailAddress">Email Address</label>
                     <div class="input-group">
                         <input class="form-control" id="emailAddress" name="emailAddress" placeholder="name@example.com" type="email">
@@ -304,7 +306,7 @@
                 </div>
 
 
-                <div class="form-group mb-3">
+                <div class="form-group mb-2">
                     <label for="subject">Subject</label>
                     <div class="input-group">
                        <input class="form-control" id="subject" name="subject" placeholder="subject" type="text">
@@ -312,22 +314,22 @@
                 </div>
 
 
-                <div class="form-group mb-3">
+                <div class="form-group mb-2">
                     <label for="message">Message</label>
                     <div class="input-group">
                         <textarea class="form-control" id="message" maxlength="2000" name="message" placeholder="message (2000 characters max)" rows="3"></textarea>
                     </div>
                  </div>
                 <!--google recaptcha key-->
-                <div class="g-recaptcha" data-sitekey="6LfG4_gbAAAAAJAN98yBkn_OwJiwQ4wV0rhYuq_h"></div>
+                <div class="g-recaptcha mt-2" data-sitekey="6LfG4_gbAAAAAJAN98yBkn_OwJiwQ4wV0rhYuq_h"></div>
 
 
-                <button type="submit" class="btn btn-light col-2 text-center">Submit</button>
-                <button type="reset" class="btn btn-light col-2 text-center">Reset</button>
+                <button id="submit1" type="submit" class="btn btn-light col-2 text-center mt-2 me-1">Submit</button>
+                <button id="reset2" type="reset" class="btn btn-light col-2 text-center mt-2">Reset</button>
             </form>
                 <!--Form ends here-->
 
-            <div class="output-area"></div>
+            <div id="output-area" class="mt-2"></div>
 
         </div>
     </div>

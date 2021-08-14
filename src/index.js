@@ -38,7 +38,7 @@ const handlePostRequest = (req, res) => {
 
     if(req.recaptcha.error) {
         return res.send(
-            `<div class='alert alert-danger' role='alert'><strong>Oh snap!</strong>There was an error with Recaptcha please try again</div>`
+            `<div class='alert alert-danger' role='alert'><strong>Oh snap! </strong>There was an error with reCAPTCHA please try again</div>`
         )
     }
 
@@ -53,7 +53,7 @@ const handlePostRequest = (req, res) => {
 
     const mailgunData = {
         to: process.env.MAIL_RECIPIENT,
-        from: `${firstName}<postmaster@${process.env.MAILGUN_DOMAIN}>`,
+        from: `${firstName} ${lastName} <postmaster@${process.env.MAILGUN_DOMAIN}>`,
         subject: `${emailAddress}: ${subject}`,
         text: message
     }

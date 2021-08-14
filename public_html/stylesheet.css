@@ -57,3 +57,13 @@
     background-color: #BF4513;
     color: white;
 }
+
+
+#submit1.btn, #reset2.btn {
+    width: 7em;
+}
+
+#firstName1, #lastName2{
+    display: inline-block;
+    width: 50%;
+}
