@@ -6,6 +6,7 @@
 #aboutMeBGShape{
     background-color: #BF4513;
     border-radius: 0 0 105px 0;
+    height: fit-content;
 
 }
 @media screen and (max-width: 1124px)
@@ -57,7 +58,9 @@
     background-color: #BF4513;
     color: white;
 }
-
+#contactMeForm{
+    margin-bottom: auto;
+}
 
 #submit1.btn, #reset2.btn {
     width: 7em;
@@ -67,7 +70,13 @@
     display: inline-block;
     width: 50%;
 }
-#mQ1 div ul {
+#mQ12 ul {
+    margin-bottom:.2rem;
+    /*font-size: 1rem;*/
+    padding-left: 1.1rem;
+
+}
+#mQ13 ul {
     margin-bottom:.2rem;
     /*font-size: 1rem;*/
     padding-left: 1.1rem;
@@ -76,10 +85,13 @@
 #dDFS1 div ul {
     margin-bottom: .2rem;
     /*font-size: 1rem;*/
-    padding-left: 1.1rem;
+    padding-left: 1rem;
 }
 #DDL{
     background-color: white;
     padding: 1rem;
-    border-radius: 5%;
+    border-radius: 15%;
+}
+#mQ12{
+    border-right: solid white 1px;
 }
