@@ -70,28 +70,15 @@
     display: inline-block;
     width: 50%;
 }
-#mQ12 ul {
-    margin-bottom:.2rem;
-    /*font-size: 1rem;*/
-    padding-left: 1.1rem;
-
+.dDFS1 p {
+    /*border: blue solid 1px;*/
+    margin-bottom: 4px;
 }
-#mQ13 ul {
-    margin-bottom:.2rem;
-    /*font-size: 1rem;*/
-    padding-left: 1.1rem;
-
+#mQ12 p{
+    /*border: green solid 1px;*/
+    margin-bottom: 4px;
 }
-#dDFS1 div ul {
-    margin-bottom: .2rem;
-    /*font-size: 1rem;*/
-    padding-left: 1rem;
-}
-#DDL{
-    background-color: white;
-    padding: 1rem;
-    border-radius: 15%;
-}
-#mQ12{
-    border-right: solid white 1px;
+#this1{
+    /*border: green solid 1px;*/
+    margin-bottom: 4px;
 }
