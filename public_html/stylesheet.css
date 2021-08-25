@@ -1,4 +1,4 @@
-#AllMeInfo{
+#allMeInfo{
     max-width: 100%;
 
 }
@@ -37,12 +37,12 @@
 {.btn-lg
 {width: 8em}
 }
-#PortFolioSection{
+#portfolioSection{
     background-color:#212529 ;
     color: #fff;
 
 }
-#PortFolioSection p #PortFolioSection2 p {
+#portfolioSection p #portfolioSection2 p {
     padding: 0;
     margin: 0;
 }
@@ -54,7 +54,7 @@
     margin: 0;
     padding: 0;
 }
-#Qualifications{
+#qualifications{
     background-color: #BF4513;
     color: white;
 }
@@ -78,7 +78,7 @@
     /*border: green solid 1px;*/
     margin-bottom: 4px;
 }
-#this1{
+#webT{
     /*border: green solid 1px;*/
     margin-bottom: 4px;
 }
